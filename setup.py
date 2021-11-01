@@ -29,7 +29,7 @@ setup(name='tactic_client_lib',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      scripts=['bin/get_ticket.py', 'create_project.py'],
+      scripts=['bin/get_ticket.py', 'bin/create_project.py'],
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'License :: OSI Approved',
